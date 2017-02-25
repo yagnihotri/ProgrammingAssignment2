@@ -1,7 +1,7 @@
 # MakeCacheMatrix creates a special object which is actually a list. 
 # This special object saves environment(parent) where "inverse" object is saved 
-# When cacheSolve is called it checks for whether the "inverse" object already exist
-# in parent ( globalenviron). If the "inverse" object exist in global envrironment, it is returned otherwise
+# When cacheSolve is called it checks for whether the "inverse" object already exists
+# in parent ( globalenviron). If the "inverse" object exists in global envrironment, it is returned otherwise
 # inverse is calculated and "set" in the global environment to be retreived later as needed.
 
 
